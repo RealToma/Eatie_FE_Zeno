@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eatie demo</title>
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+    <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script> -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,700;0,800;1,200;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="scss/normalize.css">
+    <link rel="stylesheet" href="scss/main_fullpage.css">
+</head>
+<body>
+    <header>
+        <div class="languages">
+            <ul>
+                <li class="en color_obj"></li>
+            </ul>
+        </div>
+        <div class="logo color_obj"></div>
+        <div class="login color_obj"></div>
+    </header>
+
+    <div class="main_bg">
+        <div class="bg_wrapper index_bg">
+        </div>
+
+        <div class="about_oval"></div>
+        
+        <div class="play_oval"></div>
+        
+        <div class="oval_group">
+            <div class="nft_oval nft01">
+                <img class="shadow" src="images/nft_ellipse.svg" alt="">
+                <div class="nft_eatie "><img src="images/nft_02.png" alt=""></div>
+            </div>
+            <div class="nft_oval nft02">
+                <img class="shadow" src="images/nft_ellipse.svg" alt="">
+                <div class="nft_eatie "><img src="images/nft_03.png" alt=""></div>
+            </div>
+            <div class="nft_oval nft03">
+                <img class="shadow" src="images/nft_ellipse.svg" alt="">
+                <div class="nft_eatie "><img src="images/nft_01.png" alt=""></div>
+            </div>
+            <div class="nft_oval nft05">
+                <img class="shadow" src="images/nft_ellipse.svg" alt="">
+                <div class="nft_eatie "><img src="images/nft_05.png" alt=""></div>
+            </div>
+            <div class="nft_oval nft04">
+                <img class="shadow" src="images/nft_ellipse.svg" alt="">
+                <div class="nft_eatie "><img src="images/nft_04.png" alt=""></div>
+            </div>
+        </div>
+        
+        <div class="bg_wrapper map_bg">
+            <div class="map_group">
+                <div class="globe">
+                    <img src="images/globe_whole.png" alt="">
+                    <!-- <img src="images/globe_bg_half.png" alt=""> -->
+                </div>
+                <div class="stores">
+                    <div class="store store01"><img src="images/store01.png" alt=""></div>
+                    <div class="store store02"><img src="images/store02.png" alt=""></div>
+                    <div class="store store03"><img src="images/store03.png" alt=""></div>
+                    <div class="store store04"><img src="images/store04.png" alt=""></div>
+                </div>
+                <div class="exchange">
+                    <div class="exchange_img"><img src="images/exchange.png" alt=""></div>
+                </div>
+                <div class="mine">
+                    <div class="mine_img"><img src="images/mine.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="connect_bread">
+            <img class="bread_bottom" src="images/connect_bread.png" alt="">
+            <img class="bread_car" src="images/car_01.png" alt="">
+            <img class="bread_top" src="images/bread_top.png" alt="">
+        </div>
+        
+    </div>
+    
+    <section class="panel sec_index">
+        <div class="slides-container slide_show">
+            <div class="slides-inner">
+              <div class="slide"><img src="images/eatie01.png" alt=""></div>
+              <div class="slide"><img src="images/eatie02.png" alt=""></div>
+              <div class="slide"><img src="images/eatie03.png" alt=""></div>
+            </div>
+        </div>
+        <div class="slogan">
+            <!-- <h1 class="section-heading"><strong>eatie</strong> 融合現實同元宇宙</h1>
+            <h2>eat • play • earn</h2> -->
+            <div class="downloads">
+                <a href=""><img src="images/app_apple.svg" alt=""></a>
+                <a href=""><img src="images/app_google.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <section class="panel sec_about">
+        <div class="about_group">
+            <div class="about_item about1"><img src="images/about_food_01.png" alt=""></div>
+            <div class="about_item about2"><img src="images/about_food_02.png" alt=""></div>
+            <div class="about_item about3"><img src="images/about_food_03.png" alt=""></div>
+            <div class="about_item about4"><img src="images/about_food_04.png" alt=""></div>
+            <div class="about_item about5"><img src="images/about_food_05.png" alt=""></div>
+            <div class="about_item about6"><img src="images/about_food_06.png" alt=""></div>
+            
+        </div>
+        <div class="content_wrapper">
+            <div class="kv_about">
+                <div class="big_kv"><img src="images/about_kv2.png" alt=""></div>
+                <div class="small_kv"><img src="images/about_coupon.png" alt=""></div>
+            </div>
+            <div class="contents">
+                <small>01 about</small>
+                <h2>食次元宇宙:<br>玩嘢 • 儲嘢 • 整嘢 • 換嘢</h2>
+                <p class="contents_text">
+                    元宇宙同美食聽落冇乜關係，但佢哋可以喺<i>eatie</i>呢隻APP度完美結合。<i>eatie</i>融合現實同虛擬世界，佢嘅宗旨係「Eat • Play • Earn」：玩嘢、儲嘢、整嘢、換嘢。邊玩邊儲嘢，重可以運用唔同嘅食材烹調美食，並用收集或整出來嘅料理換到實體禮物。虛擬同現實世界聯動，令虛擬嘅體驗受益於現實生活，昇華同豐富玩家嘅遊戲體驗。
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="panel sec_play">
+        <div class="content_wrapper">
+            <div class="contents">
+                <small>02 play</small>
+                <h2>食次元宇宙到底玩啲乜？</h2>
+                <p class="contents_text">
+                    玩家可以試到唔同嘅遊戲，包括：移動射擊遊戲--爆炸糖；通過餵食收集食材--胃飽飽；及儲分過關遊戲--滾水淥腳。玩家重可以四圍探索，收集食材或道具。<i>eatie</i>重有各式各樣嘅線上線下聯動遊戲，目標都喺收集食材整唔同嘅料理，將呢啲料理交畀唔同店舖完成任務。透過完成咁多姿多彩嘅遊戲同任務，玩家可以贏到豐富嘅實體或虛擬禮物，甚至可以得到神秘獎品！
+                </p>
+            </div>
+            <div class="kv_play">
+                <div class="kv big_kv"><img src="images/play_kv.png" alt=""></div>
+                <div class="small_kv game01"><img src="images/play_game01.png" alt=""></div>
+                <div class="small_kv game02"><img src="images/play_game02.png" alt=""></div>
+                <div class="small_kv game03"><img src="images/play_game03.png" alt=""></div>
+                <div class="small_kv giftbox"><img src="images/play_box.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section class="panel sec_nft">
+        <div class="content_wrapper">
+            <div class="contents">
+                <small>03 NFT</small>
+                <h2>NFT</h2>
+                <p class="contents_text">
+                    <i>eatie</i> NFT揉合咗飲食同遊戲，令大家FUN住開餐！每次換領嘅NFT造型都係隨機，即係話每人嘅NFT都係獨一無二。玩家可以派<i>eatie</i> NFT喺唔同嘅虛擬店舖返工。佢哋返幾耐工，就會得到幾多獎賞！除咗遊戲入面嘅eaticoin同虛擬禮物，重有機會得到特別獎品！<br><br>
+                    <i>eatie</i> NFT暫時冇得直接買嘅，只可以透過在店舖消費後得到兌換券，然後喺<i>eatie</i>隻APP度換領。
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="panel sec_map">
+        <div class="contents">
+            <div class="map_heading">
+                <small>04 map</small>
+                <h2>食次元宇宙有咩用？</h2>
+            </div>
+            <p class="contents_text">
+                喺地圖上主要有幾種建築物:美心西餅、美心MX、東海堂、香港地、物品商店同遊戲據點等等。玩家肚餓嘅時候可以喺店內製作美食，欠缺材料就喺物品商店度買，想賺錢嘅話都可以賣嘢，悶嘅時候就去遊戲據點玩小遊戲。玩家喺地圖上點擊建築物就可以進入啦。<br><br>
+                另外玩家可以點擊地圖上嘅裝飾物獲得eaticoin或食材。
+            </p>
+        </div>
+    </section>
+    <section class="panel sec_connect">
+        <div class="contents">
+            <p>05 connect</p>
+            <div class="connect_social">
+                <!-- <a href="" class="scoial_icon"><img src="images/icon_discord.svg" alt=""></a> -->
+                <a href="" class="scoial_icon"><img src="images/icon_instagram.svg" alt=""></a>
+                <a href="" class="scoial_icon"><img src="images/icon_facebook.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- <p>Copyright © Eatie All rights reserved.</p> -->
+        <div class="footer_wrapper">
+            <div class="copyright color_obj"></div>
+            <div class="tnc color_obj"></div>
+            <div class="policy color_obj"></div>
+        </div>
+        
+        <div id="scroll_wheel" class="scroll_wheel">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="90px" height="90px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle cx="45" cy="45" r="40" stroke-linecap="round" />
+            </svg>
+            <div class="wheel_thin color_obj"></div>
+        </div>
+    </footer>
+    <script src="js/main_fullpage.js" type="text/javascript"></script>
+</body>
+</html>
